@@ -1,0 +1,41 @@
+.github-card {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .github-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .github-icon {
+    font-size: 24px;
+    margin-right: 12px;
+    color: #333;
+  }
+  
+  .connect-button {
+    margin-bottom: 16px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .expand-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    cursor: pointer;
+  }
+  

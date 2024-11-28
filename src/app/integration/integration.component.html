@@ -1,0 +1,14 @@
+<mat-card class="github-card">
+  <div class="github-header">
+    <mat-icon class="github-icon">
+        <img src="assets/github.svg" alt="GitHub Icon" />
+    </mat-icon>
+    <span>Github</span>
+  </div>
+  <button mat-flat-button color="primary"  class="connect-button" (click)="connect()">Connect</button>
+  <div *ngIf="status.connected">
+    <mat-icon color="primary">check_circle</mat-icon>
+    <span>{{status.integration.username}} Connected on {{ status.integration.connectedAt | date }}</span>
+    <button mat-button color="warn" (click)="removeIntegration()">Remove Integration</button>
+  </div>
+</mat-card>
